@@ -1,0 +1,70 @@
+/* PAGINA INDEX */
+.contieneImagen{
+    padding: 0;
+}
+
+.ofertas{
+    background-color: black;
+    margin: 3px;
+    padding: 8px;
+    h2{
+        color: #bdc3c7;
+        font-size: 1.2rem;
+        text-align: center;
+        font-family: 'Stardos Stencil', cursive;
+        text-transform: uppercase;
+    }
+    p{
+        text-align:justify;
+    }
+    .boton-ofertas{
+        color: white;
+        background-color: tomato;
+    }
+}
+
+.noticias{
+    background-color: lightgray;
+    h2{
+        font-size: 1.2rem;
+        color: #bdc3c7;
+        background-color: black;
+        text-align: center;
+        font-family: 'Stardos Stencil', cursive;
+        text-transform: uppercase;
+        height: 25px;
+        padding-top: 6px;
+    }
+    h3{
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        text-transform: capitalize;
+        font-family: 'Stardos Stencil', cursive;
+        margin: 5px 0;
+    }
+    .fotoNoticia{
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+            img{
+                max-width: 255px;
+            }
+    }
+    .colNoticia{
+        margin: 10px 0;
+        background-color: white;
+            p{
+                color: black;
+                text-align:justify;
+                font-size: 1rem;
+                padding: 0 5px 0;
+            }
+    }
+}
+
+.card-body .card-text{
+    font-size: 1.5rem;
+    color: black;
+}
